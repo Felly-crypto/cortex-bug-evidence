@@ -1,0 +1,21 @@
+{
+  "beforeScreenshotPath": "C:\\Users\\DELL\\Desktop\\ClaudeKen\\cortex-ide\\bug-evidence\\issue-type-hierarchy-toggle-before.png",
+  "afterScreenshotPath": "C:\\Users\\DELL\\Desktop\\ClaudeKen\\cortex-ide\\bug-evidence\\issue-type-hierarchy-toggle-after.png",
+  "probe": {
+    "prepareCalls": 1,
+    "supertypeCalls": 1,
+    "subtypeCalls": 0,
+    "availableSubtypeNames": [
+      "GrandChild"
+    ]
+  },
+  "checks": {
+    "beforeShowsLoadedSupertypes": true,
+    "beforeDoesNotShowSubtypeSection": true,
+    "afterShowsFalseSubtypeEmptyState": true,
+    "subtypeBranchWasNeverFetched": true,
+    "mockedSubtypeWasAvailable": true
+  },
+  "beforeBodyExcerpt": "Skip to main content\nVibe\nIDE\nOpen File\nFile\nEdit\nSelection\nView\nGo\nTerminal\nHelp\nmain.ts — demo\nconfig\ndemo\npackage.json\nREADME.md\nsrc\nmain.ts\nsrc\n›\nmain.ts\n1\nclass Child extends Base {}\nCode Navigation Help\nToken Limit\n0%\nType Hierarchy\n— Child\nSUPERTYPES (1)\nBase\nClass\nbase.ts:1\nEnterNavigate\nEscClose\nCtrl+Shift+H",
+  "afterBodyExcerpt": "Skip to main content\nVibe\nIDE\nOpen File\nFile\nEdit\nSelection\nView\nGo\nTerminal\nHelp\nmain.ts — demo\nconfig\ndemo\npackage.json\nREADME.md\nsrc\nmain.ts\nsrc\n›\nmain.ts\n1\nclass Child extends Base {}\nCode Navigation Help\nToken Limit\n0%\nType Hierarchy\n— Child\nSUPERTYPES (1)\nBase\nClass\nbase.ts:1\nChild\nCurrent Type\nSUBTYPES (0)\nNo subtypes found\nEnterNavigate\nEscClose\nCtrl+Shift+H"
+}
