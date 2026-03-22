@@ -1,0 +1,11 @@
+{
+  "beforeScreenshotPath": "C:\\Users\\DELL\\Desktop\\ClaudeKen\\cortex-ide\\bug-evidence\\issue-filefinder-line-mode-before-click.png",
+  "afterScreenshotPath": "C:\\Users\\DELL\\Desktop\\ClaudeKen\\cortex-ide\\bug-evidence\\issue-filefinder-line-mode-after-click.png",
+  "checks": {
+    "beforeShowsCurrentFileHint": true,
+    "beforeShowsAlternativeFileRow": true,
+    "afterClickedFileBecomesActive": true
+  },
+  "beforeBodyExcerpt": "Skip to main content\nVibe\nIDE\nOpen File\nFile\nEdit\nSelection\nView\nGo\nTerminal\nHelp\nmain.ts — demo\nconfig\ndemo\npackage.json\nREADME.md\nsrc\nmain.ts\nsrc\n›\nmain.ts\n1\n2\n3\nMAIN_FILE_LINE_1\nMAIN_FILE_LINE_2\nMAIN_FILE_LINE_3\nCode Navigation Help\nToken Limit\n0%\n2 of 2\nmain.ts\nsrc\nREADME.md\nGo to line 1\nin current file\n🔷\nmain.ts\nsrc\n📖\nREADME.md\nEnter\ngo to line\nEsc\nclose\n:line or :line:column",
+  "afterBodyExcerpt": "Skip to main content\nVibe\nIDE\nOpen File\nFile\nEdit\nSelection\nView\nGo\nTerminal\nHelp\nREADME.md — demo\nconfig\ndemo\npackage.json\nREADME.md\nsrc\nmain.ts\nREADME.md\nREADME.md\n1\n2\nREADME_FIRST_LINE\nREADME_SECOND_LINE\nCode Navigation Help\nToken Limit\n0%"
+}
