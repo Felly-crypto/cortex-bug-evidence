@@ -1,0 +1,15 @@
+{
+  "issue": "CallHierarchyView loses fallback outgoing results after switching direction",
+  "filePath": "/tmp/demo/main.ts",
+  "source": "function callee() { return 1; }\nfunction foo() {\n  callee();\n}\nfunction caller() {\n  foo();\n}",
+  "checks": {
+    "sourceContainsOutgoingCall": true,
+    "sourceContainsIncomingCaller": true,
+    "beforeShowsIncomingCaller": true,
+    "afterShowsFalseOutgoingEmptyState": true
+  },
+  "beforeScreenshotPath": "C:\\Users\\DELL\\Desktop\\ClaudeKen\\cortex-ide\\bug-evidence\\issue-call-hierarchy-fallback-before.png",
+  "afterScreenshotPath": "C:\\Users\\DELL\\Desktop\\ClaudeKen\\cortex-ide\\bug-evidence\\issue-call-hierarchy-fallback-after.png",
+  "beforeBodyExcerpt": "Skip to main content\nVibe\nIDE\nOpen File\nFile\nEdit\nSelection\nView\nGo\nTerminal\nHelp\nHome — demo\nconfig\ndemo\nmain.ts\nHey, start building or open your project.\nBuild\nClaude-Opus-4.5\nOpen Project\nOpen File\nCtrl+O\nOpen Folder\nCtrl+Shift+O\nClone Repository\nCtrl+Shift+G\nNew File\nCtrl+N\nCode Navigation Help\nToken Limit\n0%\nIncoming\nOutgoing\nfoo\nmain.ts:2\ncaller\nmain.ts:5\nPreview\nHover over an item to preview\nEnter Navigate\nSpace Expand/Collapse\nEsc Close\n1 caller(s)",
+  "afterBodyExcerpt": "Skip to main content\nVibe\nIDE\nOpen File\nFile\nEdit\nSelection\nView\nGo\nTerminal\nHelp\nHome — demo\nconfig\ndemo\nmain.ts\nHey, start building or open your project.\nBuild\nClaude-Opus-4.5\nOpen Project\nOpen File\nCtrl+O\nOpen Folder\nCtrl+Shift+O\nClone Repository\nCtrl+Shift+G\nNew File\nCtrl+N\nCode Navigation Help\nToken Limit\n0%\nIncoming\nOutgoing\nfoo\nmain.ts:2\nNo outgoing calls found\nPreview\nHover over an item to preview\nEnter Navigate\nSpace Expand/Collapse\nEsc Close\n0 callee(s)"
+}
