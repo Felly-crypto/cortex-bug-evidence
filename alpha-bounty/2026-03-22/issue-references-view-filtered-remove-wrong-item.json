@@ -1,0 +1,14 @@
+{
+  "beforeScreenshotPath": "C:\\Users\\DELL\\Desktop\\ClaudeKen\\cortex-ide\\bug-evidence\\issue-references-view-filtered-remove-before.png",
+  "afterScreenshotPath": "C:\\Users\\DELL\\Desktop\\ClaudeKen\\cortex-ide\\bug-evidence\\issue-references-view-filtered-remove-after.png",
+  "readCountBefore": "1",
+  "readCountAfter": "0",
+  "checks": {
+    "beforeShowsFilteredPythonResult": true,
+    "readCountStartsAtOne": true,
+    "readCountDropsAfterClick": true,
+    "visibleRowStillRemainsAfterRemove": true
+  },
+  "beforeBodyExcerpt": "Skip to main content\nVibe\nIDE\nOpen File\nFile\nEdit\nSelection\nView\nGo\nTerminal\nHelp\nHome — demo\nconfig\ndemo\npackage.json\nREADME.md\nsrc\nHey, start building or open your project.\nBuild\nClaude-Opus-4.5\nOpen Project\nOpen File\nCtrl+O\nOpen Folder\nCtrl+Shift+O\nClone Repository\nCtrl+Shift+G\nNew File\nCtrl+N\nCode Navigation Help\nToken Limit\n0%\nReferences: needle\nAll\nTypeScript\nJavaScript\nRust\nPython\nGo\nC/C++\nJSON\n1\n1\n0\n1 result in 1 file\nfrom src/a.ts:1\nb.py\nsrc\n1\n1\nneedle = beta\n↑↓ navigate • Enter go to\nShift+F12 find refs • Esc close",
+  "afterBodyExcerpt": "Skip to main content\nVibe\nIDE\nOpen File\nFile\nEdit\nSelection\nView\nGo\nTerminal\nHelp\nHome — demo\nconfig\ndemo\npackage.json\nREADME.md\nsrc\nHey, start building or open your project.\nBuild\nClaude-Opus-4.5\nOpen Project\nOpen File\nCtrl+O\nOpen Folder\nCtrl+Shift+O\nClone Repository\nCtrl+Shift+G\nNew File\nCtrl+N\nCode Navigation Help\nToken Limit\n0%\nReferences: needle\nAll\nTypeScript\nJavaScript\nRust\nPython\nGo\nC/C++\nJSON\n0\n1\n0\n1 result in 1 file\nfrom src/a.ts:1\nb.py\nsrc\n1\n1\nneedle = beta\n↑↓ navigate • Enter go to\nShift+F12 find refs • Esc close"
+}
