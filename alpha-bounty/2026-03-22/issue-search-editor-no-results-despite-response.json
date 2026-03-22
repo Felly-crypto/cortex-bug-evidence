@@ -1,0 +1,52 @@
+{
+  "screenshotPath": "C:\\Users\\DELL\\Desktop\\ClaudeKen\\cortex-ide\\bug-evidence\\issue-search-editor-no-results-despite-response.png",
+  "inputValue": "needle",
+  "checks": {
+    "queryVisible": true,
+    "noResultsVisible": true,
+    "backendWasCalled": true,
+    "backendReturnedTwoFiles": true
+  },
+  "probe": {
+    "calls": [
+      {
+        "path": "/tmp/demo",
+        "query": "needle",
+        "caseSensitive": false,
+        "regex": false,
+        "maxResults": 1000
+      }
+    ],
+    "response": {
+      "results": [
+        {
+          "file": "/tmp/demo/src/app.ts",
+          "matches": [
+            {
+              "line": 1,
+              "column": 14,
+              "text": "const needle = 1;",
+              "matchStart": 6,
+              "matchEnd": 12
+            }
+          ]
+        },
+        {
+          "file": "/tmp/demo/node_modules/pkg/index.js",
+          "matches": [
+            {
+              "line": 1,
+              "column": 7,
+              "text": "var needle = true;",
+              "matchStart": 4,
+              "matchEnd": 10
+            }
+          ]
+        }
+      ],
+      "totalMatches": 2,
+      "filesSearched": 2
+    }
+  },
+  "bodyExcerpt": "Skip to main content\nVibe\nIDE\nOpen File\nFile\nEdit\nSelection\nView\nGo\nTerminal\nHelp\nclaude-opus-4.5\ndemo\npackage.json\nREADME.md\nsrc\nNo files open\nPress Ctrl+P to open a file\nCode Navigation Help\nToken Limit\n0%\nSearch Editor\nEditor\nSave\nCopy\nAa\nW\n.*\nNo results found\nEnter open • F4 next • Shift+F4 prev\nEsc close"
+}
