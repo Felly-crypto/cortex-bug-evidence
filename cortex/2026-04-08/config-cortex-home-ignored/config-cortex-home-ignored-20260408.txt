@@ -1,0 +1,20 @@
+USERPROFILE=C:\Users\DELL\Desktop\ClaudeFelly\tmp-config-home-proof\fakehome
+HOME=C:\Users\DELL\Desktop\ClaudeFelly\tmp-config-home-proof\fakehome
+CORTEX_HOME=C:\Users\DELL\Desktop\ClaudeFelly\tmp-config-home-proof\customhome
+
+Configuration file: C:\Users\DELL\.cortex\config.toml
+
+proof_key_20260408 = "proof_value_20260408"
+provider = "openai"
+
+[approval]
+
+[mcp_servers]
+
+[model]
+default = "gpt-4o"
+
+[sandbox]
+
+
+"proof_value_20260408"
