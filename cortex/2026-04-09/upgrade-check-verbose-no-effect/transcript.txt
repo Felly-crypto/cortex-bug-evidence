@@ -1,0 +1,19 @@
+﻿> C:\Users\DELL\AppData\Local\Cortex\cortex.exe upgrade --check --color never
+Cortex CLI Upgrade
+========================================
+Current version: v0.0.7
+Update server: https://software.cortex.foundation
+
+Checking for updates (stable channel)...
+
+âœ“ You are already on the latest version (v0.0.7)
+
+> C:\Users\DELL\AppData\Local\Cortex\cortex.exe --verbose upgrade --check --color never
+Cortex CLI Upgrade
+========================================
+Current version: v0.0.7
+Update server: https://software.cortex.foundation
+
+Checking for updates (stable channel)...
+
+OUTPUTS_IDENTICAL=False

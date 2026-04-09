@@ -1,0 +1,7 @@
+﻿> C:\Users\DELL\AppData\Local\Cortex\cortex.exe agent export demo --output "C:\Users\DELL\Desktop\ClaudeFelly\tmp-agent-export-proof.md" --color never
+Agent 'demo' exported to: C:\Users\DELL\Desktop\ClaudeFelly\tmp-agent-export-proof.md
+
+> C:\Users\DELL\AppData\Local\Cortex\cortex.exe --verbose agent export demo --output "C:\Users\DELL\Desktop\ClaudeFelly\tmp-agent-export-proof.md" --color never
+Agent 'demo' exported to: C:\Users\DELL\Desktop\ClaudeFelly\tmp-agent-export-proof.md
+
+OUTPUTS_IDENTICAL=True

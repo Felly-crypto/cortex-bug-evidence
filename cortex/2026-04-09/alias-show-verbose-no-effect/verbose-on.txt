@@ -1,0 +1,3 @@
+Alias: testalias
+----------------------------------------
+  Command: exec --output-schema schema.json

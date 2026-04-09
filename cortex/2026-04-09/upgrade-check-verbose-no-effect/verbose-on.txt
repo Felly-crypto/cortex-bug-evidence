@@ -1,0 +1,8 @@
+Cortex CLI Upgrade
+========================================
+Current version: v0.0.7
+Update server: https://software.cortex.foundation
+
+Checking for updates (stable channel)...
+
+✓ You are already on the latest version (v0.0.7)

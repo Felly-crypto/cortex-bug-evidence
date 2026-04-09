@@ -1,0 +1,11 @@
+﻿> C:\Users\DELL\AppData\Local\Cortex\cortex.exe alias show testalias --color never
+Alias: testalias
+----------------------------------------
+  Command: exec --output-schema schema.json
+
+> C:\Users\DELL\AppData\Local\Cortex\cortex.exe --verbose alias show testalias --color never
+Alias: testalias
+----------------------------------------
+  Command: exec --output-schema schema.json
+
+OUTPUTS_IDENTICAL=True

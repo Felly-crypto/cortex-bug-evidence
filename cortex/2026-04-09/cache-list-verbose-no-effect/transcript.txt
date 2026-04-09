@@ -1,0 +1,25 @@
+﻿> C:\Users\DELL\AppData\Local\Cortex\cortex.exe cache list --color never
+Cached Items (8):
+------------------------------------------------------------
+    20.15 MB  cortex.exe
+        13 B  logs/notes.md
+        10 B  logs/session.log
+         3 B  responses/nested-proof-20260407/deep/proof-a.txt
+         3 B  responses/nested-proof-20260407/deep/proof-b.txt
+        20 B  responses/nested-proof-20260407/deep/proof.txt
+         1 B  responses/noninteractive-proof.txt
+        10 B  temp/codexhang.txt
+
+> C:\Users\DELL\AppData\Local\Cortex\cortex.exe --verbose cache list --color never
+Cached Items (8):
+------------------------------------------------------------
+    20.15 MB  cortex.exe
+        13 B  logs/notes.md
+        10 B  logs/session.log
+         3 B  responses/nested-proof-20260407/deep/proof-a.txt
+         3 B  responses/nested-proof-20260407/deep/proof-b.txt
+        20 B  responses/nested-proof-20260407/deep/proof.txt
+         1 B  responses/noninteractive-proof.txt
+        10 B  temp/codexhang.txt
+
+OUTPUTS_IDENTICAL=True

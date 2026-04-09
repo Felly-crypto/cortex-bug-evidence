@@ -1,0 +1,13 @@
+Agent: demo
+========================================
+Description: Custom agent: demo
+Mode: primary
+Source: personal
+Native: no (user-defined agent)
+Hidden: false
+Can Delegate: Yes (can spawn sub-agents for parallel tasks)
+Path: C:\Users\DELL\.cortex\agents\demo.md
+
+System Prompt:
+----------------------------------------
+  You are demo, a helpful AI assistant.

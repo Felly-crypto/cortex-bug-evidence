@@ -1,0 +1,31 @@
+﻿> C:\Users\DELL\AppData\Local\Cortex\cortex.exe agent show demo --color never
+Agent: demo
+========================================
+Description: Custom agent: demo
+Mode: primary
+Source: personal
+Native: no (user-defined agent)
+Hidden: false
+Can Delegate: Yes (can spawn sub-agents for parallel tasks)
+Path: C:\Users\DELL\.cortex\agents\demo.md
+
+System Prompt:
+----------------------------------------
+  You are demo, a helpful AI assistant.
+
+> C:\Users\DELL\AppData\Local\Cortex\cortex.exe --verbose agent show demo --color never
+Agent: demo
+========================================
+Description: Custom agent: demo
+Mode: primary
+Source: personal
+Native: no (user-defined agent)
+Hidden: false
+Can Delegate: Yes (can spawn sub-agents for parallel tasks)
+Path: C:\Users\DELL\.cortex\agents\demo.md
+
+System Prompt:
+----------------------------------------
+  You are demo, a helpful AI assistant.
+
+OUTPUTS_IDENTICAL=True
