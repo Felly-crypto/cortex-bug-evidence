@@ -1,0 +1,8 @@
+﻿> C:\Users\DELL\AppData\Local\Cortex\cortex.exe agent export demo --output C:\Users\DELL\cfo.md --color never 1> C:\Users\DELL\cfo.txt 2> C:\Users\DELL\cfe.txt
+STDOUT:
+[empty]
+
+STDERR:
+Agent 'demo' exported to: C:\Users\DELL\cfo.md
+
+OUT_EXISTS=True

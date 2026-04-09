@@ -1,0 +1,7 @@
+﻿> set CORTEX_HOME=C:\Users\DELL\cfcp
+> C:\Users\DELL\AppData\Local\Cortex\cortex.exe agent copy demo cpyhm09 --color never
+Agent 'demo' copied to 'cpyhm09'
+   Location: C:\Users\DELL\.cortex\agents\cpyhm09.md
+
+DEFAULT_EXISTS=True
+CUSTOM_EXISTS=False

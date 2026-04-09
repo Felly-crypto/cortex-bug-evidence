@@ -1,0 +1,5 @@
+﻿> set CORTEX_HOME=C:\Users\DELL\cfch
+> C:\Users\DELL\AppData\Local\Cortex\cortex.exe agent create --non-interactive --name crtchm09 --color never
+C:\Users\DELL\.cortex\agents\crtchm09.md
+DEFAULT_EXISTS=True
+CUSTOM_EXISTS=False
