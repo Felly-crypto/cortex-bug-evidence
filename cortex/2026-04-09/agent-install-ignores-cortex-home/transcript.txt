@@ -1,0 +1,12 @@
+﻿CORTEX_HOME=C:\Users\DELL\Desktop\ClaudeFelly\tmp-agent-install-cortex-home\custom-home
+
+> C:\Users\DELL\AppData\Local\Cortex\cortex.exe agent install proofagent20260409 --registry http://127.0.0.1:8765
+Installing agent 'proofagent20260409' from registry...
+   Registry: http://127.0.0.1:8765
+   Fetching: http://127.0.0.1:8765/agents/proofagent20260409.md
+
+Agent 'proofagent20260409' installed successfully!
+   Location: C:\Users\DELL\.cortex\agents\proofagent20260409.md
+
+DEFAULT_EXISTS=True
+CUSTOM_EXISTS=False
