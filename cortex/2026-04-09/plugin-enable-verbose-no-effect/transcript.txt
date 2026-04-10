@@ -1,0 +1,7 @@
+﻿> C:\Users\DELL\AppData\Local\Cortex\cortex.exe plugin enable sample-one --color never
+Plugin 'sample-one' enabled.
+
+> C:\Users\DELL\AppData\Local\Cortex\cortex.exe --verbose plugin enable sample-one --color never
+Plugin 'sample-one' enabled.
+
+OUTPUTS_IDENTICAL=True

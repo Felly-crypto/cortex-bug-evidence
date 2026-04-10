@@ -1,0 +1,7 @@
+> C:\Users\DELL\AppData\Local\Cortex\cortex.exe plugin remove verboseplugremove20260410 --yes --color never
+Plugin 'verboseplugremove20260410' removed successfully.
+
+> C:\Users\DELL\AppData\Local\Cortex\cortex.exe --verbose plugin remove verboseplugremove20260410 --yes --color never
+Plugin 'verboseplugremove20260410' removed successfully.
+
+OUTPUTS_IDENTICAL=True

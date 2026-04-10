@@ -1,0 +1,7 @@
+> C:\Users\DELL\AppData\Local\Cortex\cortex.exe cache size --color never
+20.15 MB
+
+> C:\Users\DELL\AppData\Local\Cortex\cortex.exe --verbose cache size --color never
+20.15 MB
+
+OUTPUTS_IDENTICAL=True

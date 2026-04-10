@@ -1,0 +1,11 @@
+Defined Aliases:
+------------------------------------------------------------
+  codextest = exec --help
+  hi = exec --output-schema
+      schema helper
+  q = exec --output-schema
+  spaced = exec --output-schema --color never
+      has spaces
+  testalias = exec --output-schema schema.json
+
+Total: 5 alias(es)
